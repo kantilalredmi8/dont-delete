@@ -34,19 +34,19 @@ input, button {
   border: none;
 }
 
-/* EMAIL BOX (70% of original 300px → 210px) */
+/* EMAIL INPUT (70% Size) */
 .email {
   top: 430px;
   left: 30px;
-  width: 210px;     /* 70% size */
+  width: 210px;
   height: 35px;
 }
 
-/* PASSWORD BOX */
+/* PASSWORD INPUT */
 .password {
   top: 500px;
   left: 30px;
-  width: 210px;     /* 70% size */
+  width: 210px;
   height: 35px;
 }
 
@@ -54,6 +54,17 @@ input, button {
 .signin {
   top: 570px;
   left: 30px;
-  width: 210px;     /* 70% size */
+  width: 210px;
   height: 35px;
+}
+
+/* TOP LEFT MENU ICON CLICK AREA */
+.menu-btn {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  width: 60px;
+  height: 60px;
+  background: transparent;
+  cursor: pointer;
 }
