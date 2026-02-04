@@ -9,35 +9,37 @@ function login() {
   }
 }
 
-/* ----------------------------
-   SCREEN SYSTEM AFTER MENU
------------------------------*/
+let currentScreen = "";
 
-// Track current screen
-let currentScreen = "menu";
+window.onload = function () {
+  if (document.body.classList.contains("profile")) {
+    currentScreen = "profile";
+  } else if (document.body.classList.contains("menu-page")) {
+    currentScreen = "menu";
+    showScreen("menu");
+  }
+};
 
-// Change background image
 function showScreen(screenName) {
-  document.body.style.backgroundImage = url("images/${screenName}.jpg");
+  document.body.style.backgroundImage =
+    url("images/${screenName}.jpg");
   currentScreen = screenName;
 }
 
-// Click anywhere to open next image
-document.addEventListener("click", function () {
+document.addEventListener("click", function (e) {
 
-  // 3rd Image → Menu
-  if (currentScreen === "menu") {
-    showScreen("results-list");   // 4th Image
+  if (currentScreen === "profile") {
+    if (e.clientX < 80 && e.clientY < 80) {
+      window.location = "menu.html";
+    }
   }
 
-  // 4th Image → Results List
+  else if (currentScreen === "menu") {
+    showScreen("results-list");
+  }
+
   else if (currentScreen === "results-list") {
-    showScreen("final-result");  // 5th Image
-  }
-
-  // 5th Image → Stop
-  else if (currentScreen === "final-result") {
-    return;
+    showScreen("final-result");
   }
 
 });
