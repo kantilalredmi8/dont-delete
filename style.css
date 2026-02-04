@@ -1,61 +1,27 @@
-body {
-  margin: 0;
-  width: 360px;
-  height: 800px;
-  background-size: cover;
-  background-repeat: no-repeat;
+function login() {
+
+  let email = document.getElementById("email").value;
+  let password = document.getElementById("password").value;
+
+  if (email === "karitik47@gmail.com" && password === "ritikkll") {
+    window.location = "profile.html";
+  }
+  else {
+    alert("Wrong email or password");
+  }
 }
 
-/* BACKGROUND IMAGES */
-
-.login {
-  background-image: url("images/login.jpg");
+// Step 2 → Profile → Menu
+function goMenu() {
+  window.location = "menu.html";
 }
 
-.profile {
-  background-image: url("images/profile.jpg");
+// Step 3 → Menu → Your Photo
+function openMyPhoto() {
+  window.location = "me.html";
 }
 
-.menu-page {
-  background-image: url("images/menu.jpg");
-}
-
-/* INPUTS & BUTTONS */
-
-input, button {
-  position: absolute;
-  background: transparent;
-  border: none;
-}
-
-/* EMAIL BOX */
-.email {
-  top: 430px;
-  left: 30px;
-  width: 300px;
-  height: 45px;
-}
-
-/* PASSWORD BOX */
-.password {
-  top: 500px;
-  left: 30px;
-  width: 300px;
-  height: 45px;
-}
-
-/* SIGN IN BUTTON */
-.signin {
-  top: 570px;
-  left: 30px;
-  width: 300px;
-  height: 50px;
-}
-
-/* SIGN UP BUTTON */
-.signup {
-  top: 640px;
-  left: 30px;
-  width: 300px;
-  height: 50px;
+// Step 4 → Your Photo → Father Photo
+function openFatherPhoto() {
+  window.location = "father.html";
 }
