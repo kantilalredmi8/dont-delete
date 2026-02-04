@@ -3,15 +3,59 @@
 <head>
   <meta name="viewport" content="width=360">
   <title>Menu</title>
-  <link rel="stylesheet" href="style.css">
+
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+    }
+
+    .menu-container {
+      position: relative;
+      width: 360px;
+      height: 800px;
+    }
+
+    .menu-container img {
+      width: 360px;
+      height: 800px;
+    }
+
+    .btn {
+      position: absolute;
+      left: 0;
+      width: 360px;
+      height: 80px;
+    }
+
+    /* Button Positions */
+    #btn1 { top: 200px; }
+    #btn2 { top: 280px; }
+    #btn3 { top: 360px; }
+    #btn4 { top: 440px; }
+    #btn5 { top: 520px; }
+  </style>
 </head>
 
-<body style="margin:0;">
+<body>
 
-<img src="images/menu.jpg" width="360" height="800">
+<div class="menu-container">
 
-<!-- Result Button -->
-<div class="result-btn-menu" onclick="window.location='results.html'"></div>
+  <!-- Menu Image -->
+  <img src="images/menu.jpg">
+
+  <!-- Buttons -->
+  <div id="btn1" class="btn" onclick="window.location='profile.html'"></div>
+
+  <div id="btn2" class="btn" onclick="window.location='attendance.html'"></div>
+
+  <div id="btn3" class="btn" onclick="window.location='marks.html'"></div>
+
+  <div id="btn4" class="btn" onclick="window.location='results.html'"></div>
+
+  <div id="btn5" class="btn" onclick="window.location='logout.html'"></div>
+
+</div>
 
 </body>
 </html>
