@@ -82,3 +82,9 @@ input, button {
   background: transparent;
   cursor: pointer;
 }
+.email:focus,
+.password:focus {
+  border: none;
+  outline: none;
+  box-shadow: none;
+}
