@@ -41,6 +41,11 @@ input, button {
   transform: translateX(-50%);
   width: 210px;
   height: 35px;
+  
+  border: none; 
+  outline: none;
+  box-shadow: none;
+  background: transparent;
 }
 
 /* PASSWORD INPUT */
@@ -50,6 +55,11 @@ input, button {
   transform: translateX(-50%);
   width: 210px;
   height: 35px;
+  
+  border: none; 
+  outline: none;
+  box-shadow: none;
+  background: transparent;
 }
 
 /* SIGN IN BUTTON */
@@ -59,6 +69,7 @@ input, button {
   transform: translateX(-50%);
   width: 210px;
   height: 35px;
+  
 }
 
 /* TOP LEFT MENU ICON CLICK AREA */
