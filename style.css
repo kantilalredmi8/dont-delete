@@ -6,7 +6,7 @@ body{
   background-repeat:no-repeat;
 }
 
-/* BACKGROUND IMAGES */
+/* BACKGROUNDS */
 .login{
   background-image:url("images/login.jpg");
 }
@@ -19,14 +19,18 @@ body{
   background-image:url("images/menu.jpg");
 }
 
-/* INPUTS & BUTTONS */
-input, button, .menu{
+.results-page{
+  background-image:url("images/results-list.jpg");
+}
+
+/* INPUTS */
+input, button, div{
   position:absolute;
   background:transparent;
   border:none;
 }
 
-/* EMAIL BOX */
+/* EMAIL */
 .email{
   top:430px;
   left:30px;
@@ -34,7 +38,7 @@ input, button, .menu{
   height:45px;
 }
 
-/* PASSWORD BOX */
+/* PASSWORD */
 .password{
   top:500px;
   left:30px;
@@ -42,7 +46,7 @@ input, button, .menu{
   height:45px;
 }
 
-/* SIGN IN BUTTON */
+/* SIGN IN */
 .signin{
   top:570px;
   left:30px;
@@ -50,18 +54,25 @@ input, button, .menu{
   height:50px;
 }
 
-/* SIGN UP BUTTON */
-.signup{
-  top:640px;
-  left:30px;
-  width:300px;
+/* MENU BUTTON */
+.menu-btn{
+  top:15px;
+  left:15px;
+  width:50px;
   height:50px;
 }
 
-/* 3 LINE MENU ICON */
-.menu{
-  top:15px;
-  left:15px;
-  width:40px;
-  height:40px;
+/* RESULT BUTTON IN MENU */
+.result-btn-menu{
+  top:420px;
+  left:20px;
+  width:200px;
+  height:60px;
 }
+
+/* RESULT TABS */
+.r1{ top:200px; left:20px; width:320px; height:50px; }
+.r2{ top:260px; left:20px; width:320px; height:50px; }
+.r3{ top:320px; left:20px; width:320px; height:50px; }
+.r4{ top:380px; left:20px; width:320px; height:50px; }
+.r5{ top:440px; left:20px; width:320px; height:50px; }
