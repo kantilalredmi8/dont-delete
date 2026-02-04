@@ -11,17 +11,14 @@ function login() {
   }
 }
 
-// Step 2 → Profile → Menu
 function goMenu() {
   window.location = "menu.html";
 }
 
-// Step 3 → Menu → Your Photo
 function openMyPhoto() {
   window.location = "me.html";
 }
 
-// Step 4 → Your Photo → Father Photo
 function openFatherPhoto() {
   window.location = "father.html";
 }
