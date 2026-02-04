@@ -37,7 +37,8 @@ input, button {
 /* EMAIL INPUT (70% Size) */
 .email {
   top: 430px;
-  left: 30px;
+  left: 50%;
+  transform: translateX(-50%);
   width: 210px;
   height: 35px;
 }
@@ -45,7 +46,8 @@ input, button {
 /* PASSWORD INPUT */
 .password {
   top: 500px;
-  left: 30px;
+  left: 50%;
+  transform: translateX(-50%);
   width: 210px;
   height: 35px;
 }
@@ -53,7 +55,8 @@ input, button {
 /* SIGN IN BUTTON */
 .signin {
   top: 570px;
-  left: 30px;
+  left: 50%;
+  transform: translateX(-50%);
   width: 210px;
   height: 35px;
 }
