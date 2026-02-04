@@ -50,7 +50,7 @@ input, button {
 
 /* PASSWORD INPUT */
 .password {
-  top: 620px;
+  top: 630px;
   left: 50%;
   transform: translateX(-50%);
   width: 210px;
@@ -75,10 +75,10 @@ input, button {
 /* TOP LEFT MENU ICON CLICK AREA */
 .menu-btn {
   position: absolute;
-  top: 10px;
-  left: 10px;
-  width: 60px;
-  height: 60px;
+  top: 5px;
+  left: 5px;
+  width: 50px;
+  height: 50px;
   background: transparent;
   cursor: pointer;
 }
